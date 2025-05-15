@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sideticketing
+    username: admin
+    password: qwer1234!
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+logging:
+  level:
+    root: INFO
+    com.sideticketing.api: DEBUG
+
+server:
+  port: 4052
